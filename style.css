@@ -309,8 +309,8 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 30px;
-    max-width: 5000px;
+    gap: 25px;
+    max-width: 2000px;
     text-align: center;
     margin-top: 10px;
    
@@ -327,21 +327,12 @@
     .logos{
         max-width: 70%;
         max-height: 230px;
-        padding: 2px;
+        padding: 22px;
         display: block;
         margin: 0 auto;
     }
 
-    .logos{
-       
-        width: 200px; 
-        height: 200px; 
-        margin: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
+   
 
 #kunden-logos{
     display: flex;
@@ -349,7 +340,7 @@
     align-items: center;
     height: 1400px;
    /* background-color: rgb(245, 247, 249); */
-    margin-top: 10px;
+   margin-top: 10px;
     margin-right: 200px;
 
 }
@@ -438,6 +429,11 @@ footer  p{
     text-align: center;
     
     
+}
+
+    
+    
+  
 }
 
     
