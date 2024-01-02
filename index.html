@@ -7,8 +7,8 @@
 <title>CČ Website</title>
 <link rel="icon" type="image/png" href="./assets/CC-logo-rund-rgb.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,7 @@
 </head>
 <body>
  
-<nav>
+ <nav>
 <div class="logo">
 <!--<img src="./assets/CC-logo-rund-rgb.png" alt=" Colell & Čakar Design round logo with green background">-->
 <img src="./assets/CC-logo-rund-rgb.png" alt="cč logo" width="400px">
@@ -34,13 +34,27 @@
         <h4 class="text">Interdisziplinäre Designagentur aus Hamburg.</h4>
          <br></div>
 <div class="hero-container"> 
-     <img class="repeating-gif" src="./assets/CČ Logo animation_1.gif" alt="repeating gif"> 
+     <!--<img class="repeating-gif" src="./assets/CČ Logo animation_1.gif" alt="repeating gif">-->
+     
+     <video autoplay loop muted>
+        <source src="./assets/web_anni_27.mp4" type="video/mp4">
+       <!-- <source src="./Asset_services animation Projekt_AME/231222_web_video_animation.mp4" type="video/mp4">-->
+       <!--<source src="./assets/Typography_vid.mp4" type="video/mp4">-->
+        Your browser does not support the video tag.
+    </video> 
+    <script>
+        var video = document.getElementById("myVideo");
+        video.playbackRate = 8.5; // Set the playback speed (0.5 for half speed)
+
+        // You can change the playback rate dynamically if needed
+        // video.playbackRate = 2; // Set the playback speed to 2x (double speed)
+    </script>
 </div> </section>
 
 <section id="Services" class="services-section">
     <div class="section-head">
-        <h2 >Unsere Services <br>
-        </h2> <p>Unser Angebot reicht von Markenstrategie und Namensfindung über Designentwicklung bis hin zur Reinzeichnung. <br>
+        <h2 class="welcome-text1">Unsere Services <br>
+        </h2> <p class="text1">Unser Angebot reicht von Markenstrategie und Namensfindung über Designentwicklung bis hin zur Reinzeichnung. <br>
         So können wir ganzheitliche Designlösungen aus einer Hand anbieten,die im Markt funktionieren.</p>
     </div>
     <div class="service-cards-container">
@@ -65,12 +79,18 @@
 <!--<div class="services-animation">-->
    <!--<img src="./assets/CČ Website Asset_services_animation_5.gif" alt="services we provide">-->
 </div>
+<div class="project-head"><h2 class="welcome-text">Cases</h2>
+    <h4 class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Ducimus facilis eos necessitatibus aliquam <br> maxime quibusdam doloribus delectus,<br>
+        cum explicabo dolorum magnam vitae enim tempore modi soluta ea eaque aut quia.</h4>
+     <br></div>
 <section id="Projekte" class="Projects">
+    
  <div class="portfolio-container">
     <div class="project large">
         <img src="./assets/DH_Tiere_Thumb_ADMIN_Dec-11-164811-2023_Conflict.jpg" alt="Project katze + hunde">
         <div class="overlay">
-            <h3>Project 1</h3>
+            <h3><a href="" target="_blank">Pharma</a></h3>
             <p>Project description</p>
         </div>
 </div>         
@@ -78,7 +98,7 @@
     <div class="project ">
         <img src="./assets/DH_Aktiv.jpg" alt="projekt aktiv">
         <div class="overlay">
-            <h3>Packaging Design</h3>
+            <h3><a href="" target="_blank">Packaging Design</a></h3>
             <p>DH Aktiv</p>
         </div>
     </div>
@@ -86,14 +106,14 @@
     <div class="project small">
         <img src="./assets/DH_system_Thumb_ADMIN_Dec-11-163020-2023_Conflict.jpg" alt="Projekt DH_System">
         <div class="overlay">
-            <h3>Pharma</h3>
+            <h3><a href="" target="_blank">Pharma</a></h3>
             <p>DH system</p>
         </div>
     </div>
     <div class="project large">
         <img src="./assets/DH_Pure_thumb.jpg" alt="Projekt DH_Pure">
         <div class="overlay">
-            <h3>Project 4</h3>
+            <h3><a href="" target="_blank">Pharma? Packaging Design?</a></h3>
             <p>Project description</p>
         </div>
     </div>
@@ -101,55 +121,53 @@
     <div class="project large">
         <img src="./assets/DS_thumb.jpg" alt="projekt DS">
         <div class="overlay">
-            <h3>Project 5</h3>
-            <p>Project description</p>
+            <h3><a href="food.html" target="_blank">Food</a></h3>
+            <p>deutschesee</p>
         </div>
     </div>
 
     <div class="project medium">
         <img src="./assets/Hofgut_Thumb_new.jpg" alt="projekt hofgut hafermilch">
         <div class="overlay">
-            <h3>Project 6</h3>
-            <p>Project description</p>
+            <h3><a href="" target="_blank">Beverage</a></h3>
+            <p>Hofgut Hafermilch</p>
         </div>
     </div>
 
     <div class="project small">
         <img src="./assets/Dreimeister_katalog_Thumbs.jpg" alt="projekt dreimeister katalog">
         <div class="overlay">
-            <h3>Project 7</h3>
-            <p>Project description</p>
+            <h3><a href="" target="_blank">Branding? Coporate Design?</a></h3>
+            <p>Dreimeister Katalog</p>
         </div>
     </div>
 
     <div class="project medium">
         <img src="./assets/APG_Pistachio_thumbs.jpg" alt="projekt APG pistachios">
         <div class="overlay">
-            <h3>Project 8</h3>
-            <p>Project description</p>
+            <h3><a href="" target="_blank">PR</a></h3>
+            <p>APG Pistachios</p>
         </div>
     </div>
 
     <div class="project medium">
         <img src="./assets/medice_soventol_thumb_ADMIN_Dec-11-155921-2023_Conflict.jpg" alt="projekt medice Medice_soventol_thumb">
         <div class="overlay">
-            <h3>Project 9</h3>
-            <p>Project description</p>
+            <h3><a href="" target="_blank">Pharma</a></h3>
+            <p>Medice soventol</p>
         </div>
     </div>
 
     <div class="project medium">
         <img src="./assets/BBQ_Thumb.jpg" alt="Projekt BBQ Wasser">
         <div class="overlay">
-            <h3>Project 10</h3>
-            <p>Project description</p>
+            <h3><a href="" target="_blank">Beverage</a></h3>
+            <p>BBQ Wasser</p>
         </div>
     </div>
 </div> 
  </div>
 </section> 
-
-
 
 <section id="Agentur" class="agency">
    <div class="agentur-content">
@@ -211,9 +229,9 @@
             <input type="email" id="email" name="email" placeholder="john@example.com" required>
 
             <label for="message">Nachricht:</label>
-            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+            <textarea id="message" name="message" placeholder="Deine Nachricht" required></textarea>
 
-            <button type="submit">Send Message</button>
+            <button type="submit">Moin!</button>
         </form>
     </div>
 </section>
@@ -223,6 +241,7 @@
    </footer>
     </div>
 </section>
+
 </body>
 </html>
 
